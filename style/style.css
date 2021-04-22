@@ -1,0 +1,31 @@
+/* * {
+  background-color: aquamarine;
+} */
+
+/* #farm {
+  background-color: lightyellow;
+} */
+
+.make {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: lightgray;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.catObject {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: lightyellow;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+}
