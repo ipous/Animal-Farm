@@ -37,3 +37,7 @@ html, body {
     align-items: center;
   }
   
+  a {
+      background-color: goldenrod;
+      color: black;
+  }
