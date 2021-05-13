@@ -6,6 +6,7 @@
   background-color: lightyellow;
 } */
 
+
 .make {
   padding: 10px;
   height: 150px;
@@ -22,10 +23,167 @@
   padding: 10px;
   height: 150px;
   width: 150px;
-  background-color: lightyellow;
-  border: solid black 1px;
+  background-color: purple;
+  border: solid black 10px;
   margin: 10px;
   border-radius: 50%;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.dogObject {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: darkblue;
+  border: solid black 10px;
+  margin: 10px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.sheepObject {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: lightskyblue;
+  border: solid black 10px;
+  margin: 10px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.horseObject {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: lightgreen;
+  border: solid black 10px;
+  margin: 10px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#makeHorse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 5px;
+  background-color: darkred;
+}
+
+#makeCat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 5px;
+  background-color: darkred;
+}
+
+#makeDog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 5px;
+  background-color: darkred;
+}
+
+#makeSheep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 5px;
+  background-color: darkred;
+}
+
+#farm {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+    background: gold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: 500px;
+    border: black 1px solid black;
+  
+  }
+  main > aside {
+    width: 250px;
+    height: 500px;
+    flex-direction: column;
+    border: black 1px solid;
+    order: 3;
+  }
+  main > otherSide {
+    order: 2;
+    width: 250px;
+    flex-direction: column;
+    flex: 50%;
+  }
+  main > .farm {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    order: 2;
+  }
+ 
+  h1{
+    color:navy
+  }
+  fieldset{
+    color: gold;
+    border: solid gold 1px;
+  }
+  article{
+    color: gold;
+  }
+
+
+h1 {
   text-align: center;
+  font-size: 50px;
+}
+
+
+  a {
+    float: left;
+    background-color: white;
+  }
+
+  strong {
+    color: white;
+  }
+
+div {
+  font-size: 50px;
+  color: yellow
+}
+
+body{
+  background-color: goldenrod;
 }
